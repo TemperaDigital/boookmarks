@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Banner — Cursos EV.G / Enap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', 'Arial', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e9f0f8 100%);
+      margin: 0;
+      padding: 0;
+    }
+    .banner-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 6px 32px rgba(33, 66, 120, 0.12);
+      overflow: hidden;
+    }
+    .banner-header {
+      background: linear-gradient(90deg, #145a96 70%, #199573 100%);
+      color: #fff;
+      padding: 36px 36px 24px 36px;
+    }
+    .banner-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .banner-subtitle {
+      font-size: 1.15rem;
+      font-weight: 400;
+      opacity: 0.92;
+    }
+    .badge-highlight {
+      display: inline-block;
+      background: #fffde4;
+      color: #199573;
+      border-radius: 12px;
+      padding: 8px 20px;
+      margin: 12px 0 24px 0;
+      font-weight: 600;
+      font-size: 1.05rem;
+      box-shadow: 0 1px 6px rgba(25, 149, 115, 0.07);
+    }
+    .courses-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      padding: 28px 32px 36px 32px;
+    }
+    .course-card {
+      background: #f8fafd;
+      border-radius: 14px;
+      border: 1.5px solid #e3e8f2;
+      padding: 22px 20px;
+      transition: box-shadow 0.18s, border-color 0.18s;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+    }
+    .course-card:hover {
+      box-shadow: 0 6px 24px rgba(20, 90, 150, 0.14);
+      border-color: #b6d0f0;
+    }
+    .course-letter {
+      position: absolute;
+      top: 16px;
+      right: 18px;
+      background: #e3e8f2;
+      color: #145a96;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .course-title {
+      font-size: 1.12rem;
+      font-weight: 650;
+      color: #145a96;
+      margin-bottom: 10px;
+      margin-top: 4px;
+      line-height: 1.35;
+    }
+    .course-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: #199573;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 7px 16px;
+      background: #eaf6ff;
+      border-radius: 8px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .course-link:hover {
+      background: #199573;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(25,149,115,0.18);
+    }
+    .icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+    }
+    .banner-footer {
+      text-align: right;
+      padding: 0 32px 22px 32px;
+      color: #8898aa;
+      font-size: 0.95rem;
+      letter-spacing: 0.2px;
+    }
+    @media (max-width: 650px) {
+      .banner-container { max-width: 98vw; }
+      .banner-header { padding: 26px 12px 16px 12px; }
+      .banner-title { font-size: 1.35rem; }
+      .courses-grid { padding: 18px 6px 24px 6px; }
+      .course-card { padding: 14px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner-container">
+    <div class="banner-header">
+      <div class="banner-title">Capacitação em Gestão Pública — Cursos EV.G / Enap</div>
+      <div class="banner-subtitle">Fortalecimento de competências em Gestão de Pessoas, TI, Inteligência Artificial e Legislação de Pessoal</div>
+      <div class="badge-highlight">✅ Ensino a Distância (EaD) &nbsp;|&nbsp; ✅ Gratuitos &nbsp;|&nbsp; ✅ Com certificação</div>
+    </div>
+
+    <div class="courses-grid">
+      <div class="course-card">
+        <span class="course-letter">A</span>
+        <div class="course-title">Aposentadoria e Pensão de servidores <br><small>(Atualizações conforme EC nº 103/2019)</small></div>
+        <a class="course-link" href="https://www.escolavirtual.gov.br/curso/695" target="_blank">
+          Acessar curso
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.667 3.667a.667.667 0 0 1 0 1l-4.334 4.333a.667.667 0 0 1-.94-.94L7.333 6.167H3.667a.667.667 0 0 1 0-1.334h5.666a.667.667 0 0 1 .667.667v5.666a.667.667 0 0 1-1.334 0V7.167l-2.916 2.916a.667.667 0 1 1-.94-.94l4.333-4.334a.667.667 0 0 1 1 0v5.334a.667.667 0 0 1-.667.667H3.667a.667.667 0 0 1-.667-.667V4.333a.667.667 0 0 1 .667-.667h8Z"/></svg>
+        </a>
+      </div>
+
+      <div class="course-card">
+        <span class="course-letter">B</span>
+        <div class="course-title">Gestão Estratégica de Pessoas no Setor Público e o Sistema de Carreiras</div>
+        <a class="course-link" href="https://www.escolavirtual.gov.br/curso/685" target="_blank">
+          Acessar curso
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.667 3.667a.667.667 0 0 1 0 1l-4.334 4.333a.667.667 0 0 1-.94-.94L7.333 6.167H3.667a.667.667 0 0 1 0-1.334h5.666a.667.667 0 0 1 .667.667v5.666a.667.667 0 0 1-1.334 0V7.167l-2.916 2.916a.667.667 0 1 1-.94-.94l4.333-4.334a.667.667 0 0 1 1 0v5.334a.667.667 0 0 1-.667.667H3.667a.667.667 0 0 1-.667-.667V4.333a.667.667 0 0 1 .667-.667h8Z"/></svg>
+        </a>
+      </div>
+
+      <div class="course-card">
+        <span class="course-letter">C</span>
+        <div class="course-title">A Previdência Social dos Servidores Públicos: Regime Próprio e Regime de Previdência</div>
+        <a class="course-link" href="https://www.escolavirtual.gov.br/curso/681" target="_blank">
+          Acessar curso
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.667 3.667a.667.667 0 0 1 0 1l-4.334 4.333a.667.667 0 0 1-.94-.94L7.333 6.167H3.667a.667.667 0 0 1 0-1.334h5.666a.667.667 0 0 1 .667.667v5.666a.667.667 0 0 1-1.334 0V7.167l-2.916 2.916a.667.667 0 1 1-.94-.94l4.333-4.334a.667.667 0 0 1 1 0v5.334a.667.667 0 0 1-.667.667H3.667a.667.667 0 0 1-.667-.667V4.333a.667.667 0 0 1 .667-.667h8Z"/></svg>
+        </a>
+      </div>
+
+      <div class="course-card">
+        <span class="course-letter">D</span>
+        <div class="course-title">Introdução às Práticas Arquivísticas</div>
+        <a class="course-link" href="https://www.escolavirtual.gov.br/curso/559" target="_blank">
+          Acessar curso
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.667 3.667a.667.667 0 0 1 0 1l-4.334 4.333a.667.667 0 0 1-.94-.94L7.333 6.167H3.667a.667.667 0 0 1 0-1.334h5.666a.667.667 0 0 1 .667.667v5.666a.667.667 0 0 1-1.334 0V7.167l-2.916 2.916a.667.667 0 1 1-.94-.94l4.333-4.334a.667.667 0 0 1 1 0v5.334a.667.667 0 0 1-.667.667H3.667a.667.667 0 0 1-.667-.667V4.333a.667.667 0 0 1 .667-.667h8Z"/></svg>
+        </a>
+      </div>
+
+      <div class="course-card">
+        <span class="course-letter">E</span>
+        <div class="course-title">Lei nº 8.112/90 e suas alterações</div>
+        <a class="course-link" href="https://www.escolavirtual.gov.br/curso/405" target="_blank">
+          Acessar curso
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.667 3.667a.667.667 0 0 1 0 1l-4.334 4.333a.667.667 0 0 1-.94-.94L7.333 6.167H3.667a.667.667 0 0 1 0-1.334h5.666a.667.667 0 0 1 .667.667v5.666a.667.667 0 0 1-1.334 0V7.167l-2.916 2.916a.667.667 0 1 1-.94-.94l4.333-4.334a.667.667 0 0 1 1 0v5.334a.667.667 0 0 1-.667.667H3.667a.667.667 0 0 1-.667-.667V4.333a.667.667 0 0 1 .667-.667h8Z"/></svg>
+        </a>
+      </div>
+
+      <div class="course-card">
+        <span class="course-letter">F</span>
+        <div class="course-title">Inteligência Artificial no Contexto do Serviço Público</div>
+        <a class="course-link" href="https://www.escolavirtual.gov.br/curso/377" target="_blank">
+          Acessar curso
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.667 3.667a.667.667 0 0 1 0 1l-4.334 4.333a.667.667 0 0 1-.94-.94L7.333 6.167H3.667a.667.667 0 0 1 0-1.334h5.666a.667.667 0 0 1 .667.667v5.666a.667.667 0 0 1-1.334 0V7.167l-2.916 2.916a.667.667 0 1 1-.94-.94l4.333-4.334a.667.667 0 0 1 1 0v5.334a.667.667 0 0 1-.667.667H3.667a.667.667 0 0 1-.667-.667V4.333a.667.667 0 0 1 .667-.667h8Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="banner-footer">
+      Fonte: Escola Virtual de Governo (EV.G) — plataforma da Enap<br>
+      <span style="font-size:0.9em;opacity:0.85">DIEx nº 5390-1 · 01 SET 2026</span>
+    </div>
+  </div>
+</body>
+</html>
